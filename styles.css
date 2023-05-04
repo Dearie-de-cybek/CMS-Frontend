@@ -13,6 +13,9 @@ header{
     padding: 2.5em;
 }
 
+.logo{
+    font-size: 1.5rem;
+}
 .wrapper{
     max-width: 1200px;
     margin: 0 auto;
@@ -47,11 +50,7 @@ nav{
     align-items: center;
 }
 
-a.logo{
-    color: #0460bc;
-    font-size: 2.2rem;
-    font-weight: bold;
-}
+
 
 a{
     text-decoration: none;
@@ -80,24 +79,13 @@ ul li a:hover{
     color: #0460bc;
 }
 
-a.cart{
-    background-color: #c3ccd7;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    color: black;
-    font-size: 1.8rem;
-    padding: 1rem;
-    border-radius: .4em;
-}
+
 
 a.cart p{
     margin: 0;
 }
 
-a.cart:hover{
-    background-color: #b5c0ce;
-}
+
 
 .mobile-cart-menu{
     display: flex;
