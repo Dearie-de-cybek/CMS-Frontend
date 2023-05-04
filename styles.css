@@ -7,9 +7,13 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+/* ******************* */
+/* *******General styles */
+/* ******************* */
  
 header{
-    background-color: #dbe1e8;
+    /* background-color: #dbe1e8; */
     padding: 2.5em;
 }
 
@@ -51,6 +55,32 @@ nav{
 }
 
 
+.btn-main,
+.btn-main:link,
+.btn-main:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s;
+}
+
+.btn-main:link,
+.btn-main:visited {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #7D0202;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 50px;
+}
 
 a{
     text-decoration: none;
@@ -80,8 +110,7 @@ ul li a:hover{
 }
 
 
-
-a.cart p{
+a.btn-main p{
     margin: 0;
 }
 
