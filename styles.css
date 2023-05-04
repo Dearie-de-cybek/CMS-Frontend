@@ -13,8 +13,12 @@ body{
 /* ******************* */
  
 header{
-    /* background-color: #dbe1e8; */
-    padding: 2.5em;
+    background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.75) 20.23%, rgba(44, 6, 29, 0.75) 100%), url(/assets/hero.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    height: 80vh;
 }
 
 .logo{
@@ -126,19 +130,36 @@ a.btn-main p{
     right: 0%;
 }
 
-@media screen and (min-width: 600px){
-    .menu-btn, .close-btn{
-        display: none;
-    }
+.hero{
+    margin: 0 auto;
+    width: 1200px;
+}
 
-    nav{
-        position: unset;
-        height: auto;
-        background: none;
-        padding: 0;
-        width: auto;
-    }
-    ul{
-        flex-direction: row;
-    }
+.welcome-text h1{
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 2.5rem;
+}
+
+.welcome-text h3{
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 2.5em;
+}
+
+.hero-text{
+    font-size: 2rem;
+    font-weight: 500;
+    width: 50%;
+    color: #fff;
+    line-height: 3.2rem;
+    margin-bottom: 2.5rem;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

@@ -1,0 +1,16 @@
+@media screen and (min-width: 600px){
+    .menu-btn, .close-btn{
+        display: none;
+    }
+
+    nav{
+        position: unset;
+        height: auto;
+        background: none;
+        padding: 0;
+        width: auto;
+    }
+    ul{
+        flex-direction: row;
+    }
+}
