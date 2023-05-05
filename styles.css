@@ -224,3 +224,24 @@ a.btn-main p{
 .Financial{
     background-color: #95445F;
 }
+
+.app-section{
+    display: flex;
+    gap: 5rem;
+    margin-left: 10%;
+}
+
+.download img{
+    width: 30px;
+    height: 30px;
+}
+
+.download{
+    display: flex;
+   align-items: flex-end;
+}
+
+.download-btn img{
+    width: 92px;
+    height: 92px;
+}
