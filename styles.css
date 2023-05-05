@@ -6,6 +6,7 @@ body{
     background: #e9edf1;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 /* ******************* */
@@ -24,6 +25,7 @@ header{
 .logo{
     font-size: 1.5rem;
 }
+
 .wrapper{
     max-width: 1200px;
     margin: 0 auto;
@@ -163,4 +165,58 @@ a.btn-main p{
     flex-direction: column;
     align-items: center;
     margin-top: 3rem;
+}
+
+.debut{
+    background-color: #173D49;
+}
+
+.subheading {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500; 
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+    letter-spacing: 0.75px;
+    padding-top: 2.4rem;
+}
+
+.heading-secondary {
+    font-size: 4.4rem;
+    line-height: 1.2;
+    margin-bottom: 4.6rem;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: -0.5px;
+    width: 70%;
+} 
+
+.about-text{
+    width: 80%;
+    font-size: 1.8rem;
+    line-height: 3.4rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+.carousel{
+    width: 500px;
+    display: flex;
+    gap: 1em; 
+}
+.carousel img{
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-container{
+    display: flex;
+    width: 500px;
+    
+}
+
+.swiper-container img{
+    /* width: 100%;
+    height: 100%; */
 }
