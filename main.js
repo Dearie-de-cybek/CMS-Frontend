@@ -18,7 +18,18 @@ var mySwiper = new Swiper ('.swiper-container', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
+    loopAdditionalSlides: 2,
+    loopedSlides: 5,
     // delay between transitions in ms
-    autoplay: true,
+    
     autoplayStopOnLast: false
 });
+
+
+
+mySwiper.prependSlide(mySwiper.slides[mySwiper.slides.length - 1].outerHTML);
+mySwiper.appendSlide(mySwiper.slides[1].outerHTML);
+
+setInterval(function() {
+    mySwiper.slideNext();
+  }, 2000); 
