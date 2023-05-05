@@ -27,7 +27,7 @@ header{
 }
 
 .wrapper{
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -134,7 +134,7 @@ a.btn-main p{
 
 .hero{
     margin: 0 auto;
-    width: 1200px;
+    width: 100%;
 }
 
 .welcome-text h1{
@@ -169,6 +169,8 @@ a.btn-main p{
 
 .debut{
     background-color: #173D49;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .subheading {
@@ -201,13 +203,12 @@ a.btn-main p{
 }
 
 .carousel{
-    width: 500px;
+    width: 100%;
     display: flex;
-    gap: 1em; 
+    gap: auto;
 }
 .carousel img{
     width: 100%;
-    height: 100%;
 }
 
 .swiper-container{
