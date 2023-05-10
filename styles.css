@@ -244,3 +244,23 @@ a.btn-main p{
     width: 92px;
     height: 92px;
 }
+
+.who{
+    background-color: #B16767;
+}
+
+.grid-images{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 7.4rem;
+    row-gap: 7.8rem;
+}
+
+#diff{
+    color: #333333;
+}
+
+#diff1{
+    color: #333333;
+    font-weight: 700;
+}
