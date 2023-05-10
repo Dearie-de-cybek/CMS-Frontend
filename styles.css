@@ -179,6 +179,7 @@ a.btn-main p{
     font-weight: 500; 
     color: #fff;
     text-transform: uppercase;
+    margin-left: 20px;
     margin-bottom: 1.6rem;
     letter-spacing: 0.75px;
     padding-top: 2.4rem;
@@ -187,6 +188,7 @@ a.btn-main p{
 .heading-secondary {
     font-size: 4.4rem;
     line-height: 1.2;
+    margin-left: 20px;
     margin-bottom: 4.6rem;
     font-weight: 700;
     color: #fff;
@@ -200,6 +202,7 @@ a.btn-main p{
     line-height: 3.4rem;
     color: #fff;
     font-weight: 500;
+    margin-left: 20px;
 }
 
 .carousel{
@@ -228,7 +231,7 @@ a.btn-main p{
 .app-section{
     display: flex;
     gap: 5rem;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 
 .download img{
@@ -242,6 +245,6 @@ a.btn-main p{
 }
 
 .download-btn img{
-    width: 92px;
-    height: 92px;
+    width: 100%;
+    height: 100%;
 }
