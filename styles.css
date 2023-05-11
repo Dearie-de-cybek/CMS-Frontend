@@ -29,6 +29,7 @@ header{
 .wrapper{
     max-width: 100%;
     margin: 0 auto;
+    padding: 10px;
 }
 
 nav{
@@ -261,11 +262,12 @@ a.btn-main p{
 }
 
 #diff{
-    color: #333333;
+    color: #fff;
 }
 
 #diff1{
-    color: #333333;
+    /* color: #333333; */
+    color: fff;
     font-weight: 700;
 }
 
