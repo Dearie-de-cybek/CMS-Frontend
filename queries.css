@@ -52,6 +52,25 @@
             width: 100%;
         }
     /* image grid */
+
+    /* car grid */
+    .car-gallery{
+        display: block;
+        margin-bottom: 2.3rem;
+    }
+    /* car grid */
+
+    /* footer */
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem; 
+    }
+
+    .nav-col {
+        text-align: unset;
+    }
+    /* footer */
 }
 
 /**************************/

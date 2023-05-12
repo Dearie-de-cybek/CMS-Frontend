@@ -187,6 +187,7 @@ a.btn-main p{
     padding-top: 2.4rem;
 }
 
+
 .heading-secondary {
     font-size: 4.4rem;
     line-height: 1.2;
@@ -221,10 +222,10 @@ a.btn-main p{
     width: 500px;
 }
 
-.swiper-container img{
-    /* width: 100%;
-    height: 100%; */
-}
+/* .swiper-container img{
+    width: 100%;
+    height: 100%;
+} */
 
 .Financial{
     background-color: #95445F;
@@ -302,3 +303,52 @@ a.btn-main p{
     background-color: #B16767;
     
 }
+
+/* footer */
+.footer-link {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: white;
+    line-height: 150%;
+}
+
+.footer-links {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: white;
+    line-height: 100%;
+}
+
+.footer{
+    background-color: #173D49;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem; 
+}
+
+.nav-col{
+    margin: 5%;
+    text-align: center;
+}
+
+.footerheading {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 700; 
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+}
+
+.footerheading1 {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500; 
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+}
+/* footer */
