@@ -23,6 +23,7 @@ var mySwiper = new Swiper ('.swiper-container', {
     // delay between transitions in ms
     
     autoplayStopOnLast: false
+    
 });
 
 
