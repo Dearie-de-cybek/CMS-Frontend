@@ -30,6 +30,7 @@ header{
     max-width: 100%;
     margin: 0 auto;
     padding: 10px;
+    margin: auto 14%;
 }
 
 nav{
@@ -37,7 +38,7 @@ nav{
     right: -100%;
     top: 0;
     width: 33%;
-    background: #fff;
+    background: black;
     height: 100vh;
     padding: 4.6em;
     transition: right .5s ease-in-out;
@@ -105,7 +106,7 @@ ul{
 
 ul li a {
     font-size: 1.8rem;
-    color: black;
+    color: white;
 }
 
 ul li a.active{
@@ -113,7 +114,7 @@ ul li a.active{
 }
 
 ul li a:hover{
-    color: #0460bc;
+    color: #7D0202;
 }
 
 
@@ -255,10 +256,10 @@ a.btn-main p{
 }
 
 .grid-images{
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 7.4rem;
-    row-gap: 7.8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
 }
 
 #diff{
@@ -270,6 +271,7 @@ a.btn-main p{
     color: fff;
     font-weight: 700;
 }
+
 
 .con{
     display: flex;
@@ -293,4 +295,10 @@ a.btn-main p{
     display: flex;
     gap: 5rem;
     margin-bottom: 2.3rem;
+}
+
+.benediction{
+    
+    background-color: #B16767;
+    
 }
