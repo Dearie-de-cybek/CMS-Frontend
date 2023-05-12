@@ -27,8 +27,9 @@ header{
 }
 
 .wrapper{
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
+    padding: 10px;
 }
 
 nav{
@@ -134,7 +135,7 @@ a.btn-main p{
 
 .hero{
     margin: 0 auto;
-    width: 1200px;
+    width: 100%;
 }
 
 .welcome-text h1{
@@ -169,6 +170,8 @@ a.btn-main p{
 
 .debut{
     background-color: #173D49;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .subheading {
@@ -177,6 +180,7 @@ a.btn-main p{
     font-weight: 500; 
     color: #fff;
     text-transform: uppercase;
+    margin-left: 20px;
     margin-bottom: 1.6rem;
     letter-spacing: 0.75px;
     padding-top: 2.4rem;
@@ -185,6 +189,7 @@ a.btn-main p{
 .heading-secondary {
     font-size: 4.4rem;
     line-height: 1.2;
+    margin-left: 20px;
     margin-bottom: 4.6rem;
     font-weight: 700;
     color: #fff;
@@ -198,16 +203,16 @@ a.btn-main p{
     line-height: 3.4rem;
     color: #fff;
     font-weight: 500;
+    margin-left: 20px;
 }
 
 .carousel{
-    width: 500px;
+    width: 100%;
     display: flex;
-    gap: 1em; 
+    gap: auto;
 }
 .carousel img{
     width: 100%;
-    height: 100%;
 }
 
 .swiper-container{
@@ -227,7 +232,7 @@ a.btn-main p{
 .app-section{
     display: flex;
     gap: 5rem;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 
 .download img{
@@ -241,8 +246,8 @@ a.btn-main p{
 }
 
 .download-btn img{
-    width: 92px;
-    height: 92px;
+    width: 100%;
+    height: 100%;
 }
 
 .who{
@@ -257,11 +262,12 @@ a.btn-main p{
 }
 
 #diff{
-    color: #333333;
+    color: #fff;
 }
 
 #diff1{
-    color: #333333;
+    /* color: #333333; */
+    color: fff;
     font-weight: 700;
 }
 
@@ -288,4 +294,3 @@ a.btn-main p{
     gap: 5rem;
     margin-bottom: 2.3rem;
 }
-
