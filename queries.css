@@ -163,6 +163,10 @@
         grid-template-columns: 1fr;
     }
 
+    .nav-col{
+        text-align: center;
+    }
+
     /* footer */
 
 }
