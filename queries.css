@@ -42,6 +42,16 @@
         padding: 10px;
     }
 
+    .grid--4-cols{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .features{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+
     /* image grid */
         .grid-images{
             display: grid;
@@ -63,7 +73,7 @@
     /* footer */
     .grid{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     .nav-col{
@@ -146,5 +156,13 @@
             
         }
     /* Finance */
+
+    /* footer */
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    /* footer */
 
 }
