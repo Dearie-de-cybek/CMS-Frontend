@@ -323,6 +323,11 @@ a.btn-main p{
     background-color: #173D49;
 }
 
+.footer-nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -331,7 +336,6 @@ a.btn-main p{
 
 .nav-col{
     margin: 5%;
-    text-align: center;
 }
 
 .footerheading {

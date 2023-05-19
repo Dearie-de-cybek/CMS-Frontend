@@ -64,11 +64,10 @@
     .grid{
         display: grid;
         grid-template-columns: 1fr;
-        gap: 2rem; 
     }
 
-    .nav-col {
-        text-align: unset;
+    .nav-col{
+        margin: 0%;
     }
     /* footer */
 }
