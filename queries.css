@@ -9,7 +9,7 @@
 /**************************/
 /* BELOW 944px (Tablets) */
 /**************************/
-@media (min-width: 59em){
+@media (min-width: 60em){
     /* Navbar */
     .menu-btn, .close-btn{
         display: none;
@@ -35,14 +35,57 @@
 /**************************/
 /* BELOW 704px (Smaller tablets) */
 /**************************/
-@media (max-width: 44em){
-    
+@media (max-width: 59em){
+    .wrapper{
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .grid--4-cols{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .features{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+
+    /* image grid */
+        .grid-images{
+            display: grid;
+            grid-template-columns: 1fr;
+            column-gap: 2rem;
+            row-gap: 2rem;
+            height: 100%;
+            width: 100%;
+        }
+    /* image grid */
+
+    /* car grid */
+    .car-gallery{
+        display: block;
+        margin-bottom: 2.3rem;
+    }
+    /* car grid */
+
+    /* footer */
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .nav-col{
+        margin: 0%;
+    }
+    /* footer */
 }
 
 /**************************/
 /* BELOW 544px (Phones) */
 /**************************/
-@media (max-width: 554px){
+@media screen and (max-width: 554px){
     /* Hero */
         .welcome-text h1{
             font-size: 4rem;
@@ -98,7 +141,7 @@
         .about-text{
             width: 90%;
             margin-left: 20px;
-            font-size: 1.8rem;
+            font-size: 1.6rem;
             line-height: 3rem;
             color: #fff;
             font-weight: 500;
@@ -109,7 +152,17 @@
         .app-section{
             display: flex;
             gap: 5rem;
+            margin-left: 5%;
             
         }
     /* Finance */
+
+    /* footer */
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    /* footer */
+
 }
