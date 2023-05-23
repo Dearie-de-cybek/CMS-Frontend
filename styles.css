@@ -239,6 +239,8 @@ a.btn-main p{
 .features{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    padding: 3em;
 }
 
 .feature-icon {
@@ -302,6 +304,11 @@ a.btn-main p{
     font-weight: 700;
 }
 
+#differ{
+    font-size: 2.4rem;
+    width: 70%;
+    line-height: 3.2rem;
+}
 
 .con{
     display: flex;
