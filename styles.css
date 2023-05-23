@@ -19,7 +19,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.9;
-    height: 80vh;
+    height: 90vh;
 }
 
 .logo{
@@ -203,9 +203,13 @@ a.btn-main p{
     width: 80%;
     font-size: 1.8rem;
     line-height: 3.4rem;
-    color: #fff;
+    color: #333333;
     font-weight: 500;
     margin-left: 20px;
+}
+
+.papa img{
+    margin-left: 6.4rem;
 }
 
 .carousel{
@@ -264,7 +268,12 @@ a.btn-main p{
     font-size: 1.8rem;
     line-height: 3.4rem;
     color: #fff;
-    font-weight: 500
+    font-weight: 500;
+    width: 80%;
+  }
+
+  .book img{
+    margin-top: 8rem;
   }
 
 .app-section{
@@ -295,24 +304,18 @@ a.btn-main p{
 }
 
 #diff{
-    color: #fff;
-}
-
-#diff1{
-    /* color: #333333; */
-    color: fff;
+    color: #333333;
     font-weight: 700;
 }
 
-#differ{
-    font-size: 2.4rem;
-    width: 70%;
-    line-height: 3.2rem;
+#diff1{
+    color: #7D0202;
+    font-weight: 700;
 }
+
 
 .con{
     display: flex;
-    gap: 3rem;
 }
 
 .locate{
