@@ -150,11 +150,35 @@
 
     /* Finance */
         .app-section{
-            display: flex;
-            gap: 5rem;
-            margin-left: 5%;
-            
+            flex-direction: column;
         }
+
+        .download-btn img{
+            width: 70%;
+            height: 70%;
+            margin: 2% 35%;
+        }
+
+        .app11, .app22 {
+            margin: 2% 25%;
+            height: 70%;
+            width: 45%;
+        }
+
+        .app-section .app11 {
+            order: 1;
+        }
+
+        .app-section .app22 {
+            order: 2;
+        }
+
+        .app-section>div {
+            order: 3;
+        }
+
+        
+
     /* Finance */
 
     /* footer */
