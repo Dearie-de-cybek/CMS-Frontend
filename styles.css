@@ -267,18 +267,13 @@ a.btn-main p{
 
 .app-section{
     display: flex;
-    gap: 5rem;
-    margin-left: 15%;
-}
-
-.download img{
-    width: 30px;
-    height: 30px;
+    column-gap: 10%;
 }
 
 .download{
     display: flex;
-   align-items: flex-end;
+    gap: 10%;
+    align-items: flex-end;
 }
 
 .download-btn img{
