@@ -203,7 +203,7 @@ a.btn-main p{
     width: 80%;
     font-size: 1.8rem;
     line-height: 3.4rem;
-    color: #333333;
+    color: #ffffff;
     font-weight: 500;
     margin-left: 20px;
 }
@@ -244,7 +244,6 @@ a.btn-main p{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2em;
-    padding: 3em;
 }
 
 .feature-icon {
@@ -304,12 +303,12 @@ a.btn-main p{
 }
 
 #diff{
-    color: #333333;
+    color: #fff;
     font-weight: 700;
 }
 
 #diff1{
-    color: #7D0202;
+    color: #ffffff;
     font-weight: 700;
 }
 
