@@ -237,13 +237,18 @@ a.btn-main p{
 
 .grid--4-cols{
     display: grid;
+    gap: 10em;
     grid-template-columns: 1.5fr  1fr;
+}
+
+.feature{
+    width: 140%;
 }
 
 .features{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2em;
+    gap: 6em;
 }
 
 .feature-icon {
@@ -271,6 +276,9 @@ a.btn-main p{
     width: 80%;
   }
 
+  .book{
+    margin-right: 5em;
+  }
   .book img{
     text-align: center;
   }
