@@ -311,19 +311,29 @@ a.btn-main p{
 }
 
 #diff{
-    color: #fff;
+    color: #333333;
     font-weight: 700;
+    width: 100%;
 }
 
 #diff1{
-    color: #ffffff;
+    color: #7D0202;
     font-weight: 700;
     font-size: 2.8rem;
 }
 
+#diff2{
+    color: #333333;
+    font-weight: 700;
+    font-size: 2.8rem;
+}
 
 .con{
     display: flex;
+}
+
+.con img{
+    margin-top: -4em;
 }
 
 .locate{
