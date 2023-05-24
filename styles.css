@@ -177,9 +177,9 @@ a.btn-main p{
 
 .subheading {
     display: block;
-    font-size: 1.6rem;
+    font-size: 2.6rem;
     font-weight: 500; 
-    color: #fff;
+    color: #7D0202;
     text-transform: uppercase;
     margin-left: 20px;
     margin-bottom: 1.6rem;
@@ -310,6 +310,7 @@ a.btn-main p{
 #diff1{
     color: #ffffff;
     font-weight: 700;
+    font-size: 2.8rem;
 }
 
 
