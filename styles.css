@@ -254,14 +254,14 @@ a.btn-main p{
     margin-bottom: 1rem;
     padding: 1.6rem;
     border-radius: 50%;
-  }
+}
 
   .feature-title {
     font-size: 2.4rem;
     color: #fff;
     font-weight: 700;
     margin-bottom: 1.6rem;
-  }
+}
 
   .feature-text {
     font-size: 1.8rem;
@@ -269,11 +269,34 @@ a.btn-main p{
     color: #fff;
     font-weight: 500;
     width: 80%;
-  }
+}
 
-  .book img{
+.book img{
     text-align: center;
-  }
+    width: 100%;
+}
+
+.bounce {
+    -webkit-animation: bounce 1s infinite;
+}
+
+@-webkit-keyframes bounce {
+    0% {
+transform: scale(1,1) translate(0px, 0px);
+}
+
+30%{
+transform: scale(1,0.8) translate(0px, 10px); 
+}
+
+75%{
+transform: scale(1,1.1) translate(0px, -10x); 
+}
+
+100% {
+transform: scale(1,1) translate(0px, 0px);
+}
+}
 
 .app-section{
     display: flex;
