@@ -63,6 +63,11 @@
         }
     /* image grid */
 
+    .book{
+        width: 70%;
+        margin-top: -25%;
+    }
+
     /* car grid */
     .car-gallery{
         display: block;
