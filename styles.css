@@ -338,11 +338,27 @@ a.btn-main p{
 }
 
 .benediction{
-    
     background-color: #B16767;
-    
 }
 
+@keyframes glowing {
+    0% {
+      background-color: #7D0202;
+      box-shadow: 0 0 5px #7D0202;
+    }
+    50% {
+      background-color: #95445F;
+      box-shadow: 0 0 20px #95445F;
+    }
+    100% {
+      background-color: #7D0202;
+      box-shadow: 0 0 5px #7D0202;
+    }
+  }
+  
+  .btn-main{
+    animation: glowing 1300ms infinite;
+  }
 /* footer */
 .footer-link {
     text-decoration: none;
