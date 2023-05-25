@@ -44,6 +44,7 @@
 
     .grid--4-cols{
         display: grid;
+        gap: 10em;
         grid-template-columns: 1fr;
     }
 
@@ -153,6 +154,14 @@
         }
     /* About Us */
 
+    .swiper-container{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        overflow: hidden;
+    }
+
     /* Finance */
         .app-section{
             flex-direction: column;
@@ -161,7 +170,7 @@
         .download-btn img{
             width: 70%;
             height: 70%;
-            margin: 2% 35%;
+            margin: 5% 10%;
         }
 
         .app11, .app22 {
@@ -183,7 +192,7 @@
         }
 
         .features {
-            margin: 2% 15%;
+            margin: 2% 5%;
         }
 
         .book img {

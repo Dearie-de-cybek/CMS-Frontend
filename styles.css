@@ -222,8 +222,11 @@ a.btn-main p{
 }
 
 .swiper-container{
-    display: flex;
-    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    overflow: hidden;
 }
 
 /* .swiper-container img{
@@ -237,18 +240,18 @@ a.btn-main p{
 
 .grid--4-cols{
     display: grid;
-    gap: 10em;
+    gap: 0em;
     grid-template-columns: 1.5fr  1fr;
 }
 
 .feature{
-    width: 140%;
+    width: 100%;
 }
 
 .features{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 6em;
+    gap: 0em;
 }
 
 .feature-icon {
@@ -333,7 +336,7 @@ transform: scale(1,1) translate(0px, 0px);
 #diff{
     color: #333333;
     font-weight: 700;
-    width: 100%;
+    width: 80%;
 }
 
 #diff1{
